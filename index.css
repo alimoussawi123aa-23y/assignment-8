@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-green:#2ecc71;
+    --blue-green: #3498db;
+    --border-grey: rgba(128, 128, 128,0,4);
+}
+body{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section{
+    width: 80vw;
+    background-color: rgba(225, 225, 250,);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--border-grey);   
+}
+main > h2:nth-child(3){
+    margin-top: 50px;
+}
+.s1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.s1 > input{
+    width: 230px;
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid var(--border-grey);
+
+}
+
+.s1 button{
+    cursor: pointer;
+    background-color: var(--color-green);
+    padding: 6px 15px;
+    height: 40px;
+    color: white;
+    font-weight: none;
+    border-radius: 5px;
+
+}
+.s2>div{
+    border: 2px dashed var(--border-grey);
+    min-height: 180px;
+    background-color: rgba(128, 128, 128,0,1);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: wrap;
+    align-content: start;
+
+}
+
+.s2>div>div{
+    background-color: var(--color-green);
+    border-radius: 20px;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px;
+
+}
